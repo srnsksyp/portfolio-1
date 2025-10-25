@@ -1,15 +1,18 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title:
+      "I focus on writing clean code and continuously improving my skills.",
+    description:
+      "Every project is a chance to explore new technologies and push my boundaries as a developer.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm easy to connect with and open to feedback.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Building Modern Web Experiences with Next.js & MERN",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,66 +75,66 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Integra.AI – AI-Powered Video Collaboration Platform",
+    des: "An AI-powered video collaboration platform where intelligent agents join meetings, respond live, and generate smart summaries, transcripts, and post-call insights.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/s.svg", "/Postgresql_elephant.svg"],
+    link: "https://integra-ai-ecru.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "ZYRA – Full-Stack Fashion E-Com App",
+    des: "A full-stack fashion e-commerce app with secure auth, dual-payment integration, and a responsive, scalable shopping experience built using React, Express, and MongoDB.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongo.svg", "/node.svg"],
+    link: "https://zyra-app-woad.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://apple-wesite.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "OBYS.agency Clone – Creative Frontend Showcase",
+    des: "A creative frontend clone of OBYS.agency featuring immersive animations, smooth scrolling, and responsive design using Three.js, GSAP, and modern web tools.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/gsap.svg",],
+    link: "https://project-obys-agency.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Saransh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saransh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saransh is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Saransh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saransh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saransh is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Saransh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saransh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saransh is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Saransh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saransh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saransh is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Saransh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saransh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saransh is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -173,29 +176,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Hackathon Project Lead",
+    desc: "Directed a small team to design and build a full-stack web app using Next.js and TypeScript. Oversaw both frontend and backend logic while ensuring clean UI and smooth deployment.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Independent Full-Stack Developer",
+    desc: "Developing personal and experimental projects using Next.js, TypeScript, and MongoDB — focusing on scalable architecture, performance, and animations.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Portfolio Development",
+    desc: "Built a modern developer portfolio to showcase skills, animations, and projects using Next.js and Tailwind CSS with a minimalist design philosophy.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Open Source & Learning",
+    desc: "Engaging in continuous learning, contributing to open-source projects, and refining skills across React, Next.js, and backend integration.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +208,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/srnsksyp",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/leet.svg",
+    link: "https://leetcode.com/srnsksyp",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/saransh-kashyap-d3c1011o5",
   },
 ];
